@@ -56,10 +56,10 @@ nav a {
   height: 50vh;
 }
 .hero h1{
-  font-size: 5rem;
+  font-size: 2.5rem;
 }
 .hero p{
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 /* Sections */
@@ -156,3 +156,4 @@ form button {
     width: 100%;
   }
 }
+
