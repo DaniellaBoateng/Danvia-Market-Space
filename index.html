@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GhMarketplace</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Danvia-Market-Space</div>
+    <nav id="navLinks">
+      <a href="#ghmarket">GH Marketplace</a>
+      <a href="#buy">Buy Local Goods</a>
+      <a href="#sell">Sell Local Goods</a>
+      <a href="#delivery">Delivery</a>
+      <a href="#cart"><i class="ri-shopping-cart-2-line"></i></a>
+    </nav>
+    <i class="ri-menu-line" id="menuIcon"></i>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="ghmarket">
+    <h1>Welcome to GhMarketplace</h1>
+    <p>Your trusted local shopping platform</p>
+  </section>
+
+  <!-- Buy Local Goods Section -->
+  <section class="section" id="buy">
+    <h2>Buy Local Goods</h2>
+    <div class="products">
+      <div class="product">
+        <img src="images/rice.jpg" alt="Product 1">
+        <h3>Local rice</h3>
+        <p>GHS 250</p>
+        <button onclick="addToCart('Local Rice', 50)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/wheat.jpg" alt="Product 2">
+        <h3>wheat</h3>
+        <p>GHS 180</p>
+        <button onclick="addToCart('Wheat', 25)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/cassava.jpg" alt="Product 3">
+        <h3>Cassava</h3>
+        <p>GHS 92</p>
+        <button onclick="addToCart('Cassava', 50)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/plantain.jpg" alt="Product 4">
+        <h3>Plaintain</h3>
+        <p>GHS 130</p>
+        <button onclick="addToCart('Plantain', 50)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/maize.jpg" alt="Product 5">
+        <h3>maize</h3>
+        <p>GHS 77</p>
+        <button onclick="addToCart('maize', 50)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="images/mf.jpg" alt="Product 6">
+        <h3>Apples Fruit Mix</h3>
+        <p>GHS 60</p>
+        <button onclick="addToCart('Local Rice', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/cabbage.jpg" alt="Product 7">
+        <h3>All-Cabbage</h3>
+        <p>GHS 55</p>
+        <button onclick="addToCart('Cabbage', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/cows.jpg" alt="Product 8">
+        <h3>Cows</h3>
+        <p>GHS 2200</p>
+        <button onclick="addToCart('Cows', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/eggs.jpg" alt="Product 9">
+        <h3>Eggs</h3>
+        <p>GHS 90</p>
+        <button onclick="addToCart('Eggs', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/hen.jpg" alt="Product 10">
+        <h3>Hen</h3>
+        <p>GHS 1500</p>
+        <button onclick="addToCart('hen', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/lettuce.jpg" alt="Product 11">
+        <h3>Lettuce</h3>
+        <p>GHS 66</p>
+        <button onclick="addToCart('Lettucee', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/beans.jpg" alt="Product 12">
+        <h3>Beans</h3>
+        <p>GHS 170</p>
+        <button onclick="addToCart('Beans', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/bell.jpg" alt="Product 13">
+        <h3>Bell Pepper</h3>
+        <p>GHS 90</p>
+        <button onclick="addToCart('BellPepper', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/carrot.jpg" alt="Product 14">
+        <h3>Carrot</h3>
+        <p>GHS 58</p>
+        <button onclick="addToCart('Carrot', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/cucumber.jpg" alt="Product 15">
+        <h3>Cucumber</h3>
+        <p>GHS 80</p>
+        <button onclick="addToCart('cucumber', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/ginger.jpg" alt="Product 16">
+        <h3>Ginger</h3>
+        <p>GHS 120</p>
+        <button onclick="addToCart('ginger', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/mushroon.jpg" alt="Product 17">
+        <h3>Mushroom</h3>
+        <p>GHS 300</p>
+        <button onclick="addToCart('mushroon', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/onion.jpg" alt="Product 18">
+        <h3>Onion Mix</h3>
+        <p>GHS 150</p>
+        <button onclick="addToCart('Onion', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/onion2.jpg" alt="Product 19">
+        <h3>Chopped Onion</h3>
+        <p>GHS 100</p>
+        <button onclick="addToCart('Onions', 50)">Add to Cart</button>
+      </div> <div class="product">
+        <img src="images/onion3.jpg" alt="Product 20">
+        <h3>Charlotte</h3>
+        <p>GHS 50</p>
+        <button onclick="addToCart('Local Rice', 50)">Add to Cart</button>
+      </div> <div class="product">
+        
+ 
+      <!-- Add more products as needed -->
+    </div>
+  </section>
+
+  <!-- Sell Local Goods Section -->
+  <section class="section" id="sell">
+    <h2>Sell Your Local Products</h2>
+    <p>Email us at <a href="mailto:sell@ghmarketplace.com">sell@ghmarketplace.com</a> to register your goods!</p>
+  </section>
+
+  <!-- Delivery Section -->
+  <section class="section" id="delivery">
+    <h2>Delivery Details</h2>
+    <form id="deliveryForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="text" placeholder="Location" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <textarea placeholder="Additional Info"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Cart Section -->
+  <section class="section" id="cart">
+    <h2>Cart Items</h2>
+    <ul id="cartList"></ul>
+    <p>Total: GHS <span id="cartTotal">0</span></p>
+  </section>
+
+  <script src="jss/main.js"></script>
+</body>
+
+</html>
